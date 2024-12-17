@@ -3,8 +3,8 @@
     [
       "@babel/preset-react",
       {
-        "runtime": "automatic",
-        "importSource": "./src/core"
+        "pragma": "createElement",
+        "pragmaFrag": "Fragment"
       }
     ],
     "@babel/preset-typescript"
